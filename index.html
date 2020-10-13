@@ -1,13 +1,43 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <style>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color:  #103B7F;
+
+  overflow: hidden;
+  width: 100%;
+  height:0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
     h3  {
-      color: red;
+      color: ;
       font-family: verdana;
-      
+
     }
-    body {background-color: powderblue;}
+    body {background-color:red;}
     h1   {color: blue;}
     p    {color: red;}
     </style>
@@ -17,6 +47,20 @@
   <link rel="icon"href="favicon.png" />
   </head>
   <body>
+
+
+    <form action="mailto:thelastsamsondhi@gmail.com"method="post"enctype="text/plain">
+<!--Your Name -->
+      <label>Your Name</label>
+      <input type="text" name="Your Name " value="">
+<!-- PlaystationID -->
+  <label>Playstation ID</label>
+
+      <input type="text" name="Playstation ID:" value="">
+<!-- Submit -->
+      <input type="submit" name="submit" value="">
+    </form>
+
     <p style="color:red">
 
 
@@ -25,12 +69,12 @@
 
 <img src="Samay.jpg" alt="Samays Photo"width="200px"height="150px">
 <hr>
-<h3>Favourite Playstation games🔥</h3>
+<h3> <b>Favourite Playstation games🔥</b></h3>
 <ol>
   <li><a href="https://en.wikipedia.org/wiki/Fortnite">Fortnite😉</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Fall_Guys">Fall Guys😉</a></li>
 </ol>
-<h3>Favourite Manchester United players🔥 </h3>
+<h3><b>Favourite Manchester United players🔥</b> </h3>
 <ul>
 <li><a href="https://en.wikipedia.org/wiki/Anthony_Martial">Martial⚽</a>
 <li><a href="https://en.wikipedia.org/wiki/Marcus_Rashford">Rashford⚽</a>
